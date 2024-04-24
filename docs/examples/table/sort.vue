@@ -5,7 +5,7 @@
     style="width: 100%"
   >
     <el-table-column prop="date" label="Date" sortable width="180" />
-    <el-table-column prop="name" label="Name" width="180" />
+    <el-table-column prop="name" label="Name" sortable width="180" />
     <el-table-column prop="address" label="Address" :formatter="formatter" />
   </el-table>
 </template>
